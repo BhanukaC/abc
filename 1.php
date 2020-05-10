@@ -46,10 +46,10 @@ foreach ($file_list as $file)
        //echo "<br>"; 
        echo '<div class="panel-body">';
        echo "$file</br>";
-						echo"<audio controls>';
-							echo'<source src='http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/{$file}'";
+						echo"<audio controls>";
+							echo"<source src='http://rotaractmora.org/rotaractmora_static/MH/voice_of_humanity_2019_OL_past_papers/Agri/Agri_2016/{$file}'";
 				
-							echo '" type="audio/mp3">';
+							echo ' type="audio/mp3">';
 							echo'Your browser does not support the audio element.';
 						echo'</audio>';						
 					
